@@ -188,7 +188,8 @@ body{
 }
 .project-name > h4{
     background-color: black;
-    
+    width: 140px;
+    margin: 0px 274px;
 }
 
 .project-name > p > a{
