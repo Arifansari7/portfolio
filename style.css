@@ -104,7 +104,7 @@ body{
     background-color: #fb0066;
 }
 .skill{
-    width: 1301px;
+    width: 1300px;
     height: 347px;
 }
 .skill >#skill-head{
@@ -121,14 +121,16 @@ body{
 }  
 .skill > .skills-area{
     width: 688px;
+    height: 347px;
     float: left;
+    background: linear-gradient(to bottom,#008ca5,#ff66ff);
+
 } 
 .skill > .skills-area >.skill-list{
-    height: 168px;
+    width: 688px;
     float: left;
-    padding: 89.5px 220px;
+    padding: 89.5px 0px;
     text-align: center;
-    background: linear-gradient(to bottom,#008ca5,#ff66ff);
 } 
 .skill > .skills-area >.skill-list > p {
     color: rgb(255, 255, 255);
@@ -136,7 +138,10 @@ body{
     font-size: larger;
     padding: 10px;
 }
-
+#projects{
+    width: 1300px;
+    height: 316px;
+}
 #projects > h1{
     padding: 10px;
     font-size: xx-large;
@@ -149,6 +154,7 @@ body{
 }
 #projects > .project-head{
     float: left;
+    width: 612px;
     height: 316px;
 
 }
@@ -159,11 +165,19 @@ body{
     margin-left: 170px;
     color: #003458;
 }
-.project-name {
-    background: linear-gradient(to bottom,#008ca5,#ff66ff);
+.project-area{
     float: left;
-    padding: 80px 183.9px;
-    }
+    width: 688px;
+    height: 316px;
+    background: linear-gradient(to bottom,#008ca5,#ff66ff);
+}
+
+.project-name {
+    width: 688px;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+}
 
 .project-name {
     text-align: center;
