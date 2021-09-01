@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <!--logo-->
+        <div class="logo" >
+        <h1><a href="arif portfolio.html" style="text-decoration: none;">
+            <span style="color: #64278f"> Arif<sup>'s</sup> </span>
+            <span style="color:#fb0066 ; margin-left: 5px;">Portfolio</span></a></h1>      
+        </div>
+        <!-- nav-bar-->
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#skill-head">Skills</a></li>
+                <li><a href="#projects">Projects</a>
+                    <ul class="sub-nav">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>    
+                    </ul>
+                </li>    
+                <li><a href="#cont">Contact</a></li>
+                <li><a href="#s-link">Links</a></li>
+           </ul>
+        </nav>
+    </header> 
+    
+    <div class="clr"></div>
+    <!-- banner  -->
+    <section class="banner"> 
+        <div class="back-text">
+            <h3>HELLO</h2>
+            <p>Welcome, Hi there I am arif student of b.tech computer science currently in 4th year </p>
+            <button><b>Contact Me</b></button>
+        </div>     
+            <img src="../background2.jpg" alt="simple computer">
+    </section>
+    <!--content-->
+    <article class="skill">
+        <div id="skill-head">
+            <h1>SKILLS</h1>
+            <img src="images/skills.jpg" alt="skills">
+        </div>
+        <div class="skill-list">    
+            <p>HTML</p>
+            <P>CSS</P>
+            <p>Bootstrap in progress</p>
+            <P>JAVASCRIPT in progress</P>
+        </div>
+    </article>
+    <div class="clr"></div>
+    <article id="projects">
+            <h1>Projects</h1>
+        <div class="project-head">    
+            <h3>Web Development</h3>
+            <img src="images/web_design.png" alt="web design image">
+        </div>   
+        <div class="project-name" >    
+            <h4>Calculator</h4>
+            <p>Simple calculator perform simple calculations</p>
+            <p><a href="index.html"> Visit here</a></p>
+            <br><br>
+            <h4>Portfolio Website</h4>
+            <p>This site is made for.</p>
+        </div>
+    </article>
+    <div class="clr"></div>
+    
+    <footer id="cont">
+        <h2>Contact Me</h2>
+        <hr width="47%">
+        <div class="contact">
+            <form >
+                <ul>
+                    <li>Name</li>
+                    <input type="text" name ="name" placeholder="Enter your name here" size="45px">
+                    <li>Email</li>
+                    <input type="text" name="email" placeholder="Enter your email here" size="45px">
+                    <li>Message</li>
+                    <textarea name="text" id="text" cols="47" rows="4" placeholder="Type your message here"  ></textarea><br><br>
+                    <input type="submit" id="submit" value="SUBMIT">
+                </ul>
+            </form>
+        </div>
+        <div id="s-link">
+            <div class="link">
+                <h2>Social Links</h2>
+                <h3>You can follow me here </h3>
+                <img src="images/icons.png" usemap="#icons" >
+                <map name="icons">
+                    <area shape="circle" coords="27.5,27.5,25" href="https://www.facebook.com/profile.php?id=100010056945816" alt="">
+                    <area shape="circle" coords="82.5,27.5,25" href="#" alt="">
+                    <area shape="circle" coords="27.5,82.5,25" href="#" alt="">
+                    <area shape="circle" coords="82.5,82.5,25" href="#" alt="">
+                </map>    
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <p>copyright &copy; 2021 all right reserved.</p>
+    </div>
+</div>
+</body>
+</html>

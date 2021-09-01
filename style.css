@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container{ 
+    width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    margin: 15px;
+    float: left;
+    
+}
+.main-menu{
+    float: right;
+    margin:auto;
+}
+.main-menu > ul{
+    list-style-type: none;
+    margin: 8px;
+} 
+.main-menu > ul > li {
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 15px;
+    font-size: large;  
+}
+.main-menu > ul > li > a{
+    text-decoration: none;
+    background-color: #64278f;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.main-menu > ul > li > a:hover{
+    background-color: #fb0066;
+}
+ .sub-nav {
+    position: absolute;
+    list-style-type: none;
+    margin: 11px -9px;
+    display: none;
+    
+}
+.sub-nav > li{
+    padding: 10px;
+
+}
+.sub-nav > li > a{
+    color: white;
+    background: #64278f;
+    text-decoration: none;
+    padding: 11px;
+}
+.sub-nav > li > a:hover{
+    background-color: #fb0066;
+}
+
+.main-menu > ul > li:hover .sub-nav{
+    display: block;
+}
+.banner{
+    width: 1300px;
+    height: 650px;
+
+}
+.banner > img{
+    width: 100%;
+    height: 650px;
+}
+.clr{
+    clear: both;
+}
+.back-text {
+    display: block;
+    position: absolute;
+    margin-left: 41pc;
+    margin-top: 180px;
+    color: #fff;
+    width: 600px;
+    
+}
+.back-text > h3{
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: xx-large;
+}
+
+.back-text > p{
+    padding-bottom: 15px;
+    font-size: larger;
+}
+.back-text > button{
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    border: solid rgb(255, 255, 255);
+    font-size: large;
+    border-radius: 0px 10px;
+    background-color: #fb0066;
+}
+.skill{
+    width: 1301px;
+    height: 347px;
+}
+.skill >#skill-head{
+    float: left;
+    height: 347px;
+}    
+.skill >#skill-head > h1{
+    display: block;
+    position: absolute;
+    font-size: 50px;
+    margin-top: 220px;
+    margin-left: 300px;
+    color: #003e69;
+}   
+.skill >.skill-list{
+    height: 168px;
+    float: left;
+    padding: 89.5px 220px;
+    text-align: center;
+    background: linear-gradient(to bottom,#008ca5,#ff66ff);
+} 
+.skill >.skill-list > p {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: larger;
+    padding: 10px;
+}
+
+#projects > h1{
+    padding: 10px;
+    font-size: xx-large;
+    
+}
+#projects > .project-head > img {
+    width: 612px;
+    height: 316px;
+    
+}
+#projects > .project-head{
+    float: left;
+    height: 316px;
+
+}
+#projects > .project-head > h3{
+    position: absolute;
+    font-size: xx-large;    
+    margin-top: 255px;
+    margin-left: 170px;
+    color: #003458;
+}
+.project-name {
+    background: linear-gradient(to bottom,#008ca5,#ff66ff);
+    float: left;
+    padding: 80px 183.9px;
+    }
+
+.project-name {
+    text-align: center;
+    color: white;
+}
+#projects  p{
+    padding-top: 10px;
+}
+.project-name > h4{
+    background-color: black;
+    
+}
+
+.project-name > p > a{
+    color: #4a0079;
+}
+.link img{
+width: 110px;
+margin-left: 20px;
+}
+.contact{
+    width: 630px;
+    float: left;
+    margin-left: 20px;
+    height: auto;
+}
+#s-link{
+    float: left;
+    width: 650px;
+}
+footer{
+    height: 430px;
+}
+footer h2 {
+    font-size: xx-large;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+.contact > form > ul {
+    list-style-type: none;
+    margin: 8px;
+}
+.contact > form > ul > li {
+    padding: 10px 0px;
+    font-size: 20px;  
+}
+input , textarea{
+    padding: 5px;
+    font-size: large;
+    border-color: #003458;
+}
+textarea{
+    border-width: 2.5px;
+}
+#submit{
+    background-color: #64278f;
+    color: white;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: #fb0066;
+}
+.link{
+    text-align: center;
+    padding: 15px;
+}
+.link > h3{
+    padding: 20px 0px;
+    color: #64278f;
+    margin-left: 20px;
+}
+.copy{
+    background-color: darkslategray;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+}
